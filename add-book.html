@@ -98,36 +98,41 @@
                         <option value="3">Three</option>
                     </select>
                 </div>
+                <!--Sezione genere-->
+
                 <div class="col-lg-4 col-md-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"
+                    <label for="inputPublication-year" class="form-label">Anno di pubblicazione</label>
+                    <input type="text" class="form-control" id="inputPublication-year"
+                        placeholder="Inserire l'anno" required>
+                </div>
+                <!--Sezione anno pubblicazione-->
+
+                <div class="col-lg-4 col-md-12">
+                    <label for="inputIsbn" class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" id="inputIsbn" placeholder="Inserire il codice ISBN"
                         required>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"
-                        required>
-                </div>
+                <!--Sezione ISBN-->
 
                 <div class="mb-3">
+                    <hr>
                     <label for="note" class="form-label">Note</label>
                     <textarea class="form-control" id="note" rows="3"
                         placeholder="Inserisci eventuali note sul libro"></textarea>
                 </div>
-
-
+                <!--Sezione note-->
 
                 <div class="col-12">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck">
                         <label class="form-check-label" for="gridCheck">
-                            Check me out
+                            Disponibile anche in italiano
                         </label>
                     </div>
                 </div>
 
                 <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button type="submit" class="btn btn-primary">Aggiungi libro</button>
                 </div>
 
             </form>
